@@ -30,3 +30,32 @@
     /* background-color: white; */
     opacity: 0%;
 }
+
+.ex-5-square{
+    transition: 0.5s;
+}
+
+.ex-5-square:hover{
+    /* -webkit-transform:scale(2); */
+    transform: scale(2);
+}
+
+.ex-5-square:active{
+    /* -webkit-transform:scale(.5); */
+    transform: scale(.5);
+}
+
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+
+.ex-7-img:hover{
+    filter: grayscale(.6) sepia(.5);
+    transition-duration: 2s;
+}
+
+.ex-8-img:hover{
+    filter: grayscale(.6) sepia(.5);
+    transition-duration: 2s;
+    border-radius: 20px;
+}
